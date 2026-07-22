@@ -47,7 +47,7 @@
 
   <!-- top meta row -->
   <g class="r d1">
-    <text x="60" y="50" class="mono" font-size="12" fill="#C6FF00">CXCROWX — PROFILE v.02</text>
+    <text x="60" y="50" class="mono" font-size="12" fill="#C6FF00">CXCROWX — PROFILE</text>
     <text x="600" y="50" class="mono" font-size="12" fill="#8A8A8A" text-anchor="middle">FRONTEND DEVELOPER</text>
     <text x="1140" y="50" class="mono" font-size="12" fill="#8A8A8A" text-anchor="end">EST. 2026</text>
   </g>
