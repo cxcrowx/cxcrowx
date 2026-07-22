@@ -1,0 +1,28 @@
+<svg width="1200" height="96" viewBox="0 0 1200 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .display { font-family: 'Arial Black', 'Helvetica Neue', Arial, sans-serif; font-weight: 900; }
+    .mono    { font-family: 'SF Mono', Menlo, 'Courier New', monospace; letter-spacing: 2px; }
+    .sweep   { animation: sweep 8s linear infinite; }
+    .arrow   { transform-box: fill-box; animation: nudge 2.4s ease-in-out infinite; }
+    @keyframes sweep { to { stroke-dashoffset: -2588 } }
+    @keyframes nudge { 0%, 100% { transform: translate(0,0) } 50% { transform: translate(6px,-6px) } }
+  </style>
+
+  <rect width="1200" height="96" fill="#0A0A0A"/>
+  <rect x="0.5" y="0.5" width="1199" height="95" stroke="#1F1F1F"/>
+  <rect class="sweep" x="0.5" y="0.5" width="1199" height="95" stroke="#C6FF00" stroke-dasharray="120 2468" opacity="0.9"/>
+  <rect x="0" y="0" width="6" height="96" fill="#C6FF00"/>
+
+  <circle cx="52" cy="48" r="5" fill="#C6FF00"/>
+  <circle cx="52" cy="48" r="5" fill="none" stroke="#C6FF00">
+    <animate attributeName="r" values="5;15" dur="1.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;0" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <text x="76" y="43" class="mono" font-size="12" fill="#C6FF00">LIVE PORTFOLIO</text>
+  <text x="76" y="66" class="display" font-size="30" fill="#F2F2F2" letter-spacing="-0.5">CXCROWX.GITHUB.IO</text>
+
+  <text x="1120" y="43" class="mono" font-size="12" fill="#8A8A8A" text-anchor="end">FLUID · WEBGL · TYPE</text>
+  <g class="arrow">
+    <text x="1148" y="70" class="display" font-size="34" fill="#C6FF00" text-anchor="end">↗</text>
+  </g>
+</svg>

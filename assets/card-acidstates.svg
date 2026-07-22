@@ -20,7 +20,7 @@
   <rect x="0" y="0" width="6" height="300" fill="#C6FF00"/>
 
   <g class="r d1">
-    <text x="40" y="52" class="mono" font-size="11" fill="#C6FF00">P—A / SLOT GAME</text>
+    <text x="40" y="52" class="mono" font-size="11" fill="#C6FF00">ORG / PLATFORM</text>
     <circle cx="512" cy="47" r="4" fill="#C6FF00"/>
     <circle cx="512" cy="47" r="4" fill="none" stroke="#C6FF00">
       <animate attributeName="r" values="4;12" dur="1.8s" repeatCount="indefinite"/>
@@ -30,15 +30,15 @@
   </g>
 
   <g class="r d2">
-    <text x="38" y="126" class="display" font-size="40" fill="#F2F2F2" letter-spacing="-1">FLAMINGO</text>
-    <text x="38" y="172" class="display" font-size="40" fill="#F2F2F2" letter-spacing="-1">FORTUNE FLOW</text>
+    <text x="38" y="126" class="display" font-size="40" fill="#F2F2F2" letter-spacing="-1">ACIDSTATES</text>
+    <text x="38" y="172" class="display" font-size="40" fill="#C6FF00" letter-spacing="-1">.COM</text>
   </g>
 
   <g class="r d3">
-    <text x="40" y="216" class="mono" font-size="12" fill="#8A8A8A">slot game · react client · lead contributor</text>
+    <text x="40" y="216" class="mono" font-size="12" fill="#8A8A8A">org platform · games &amp; tools · typescript</text>
     <rect x="40" y="240" width="300" height="3" fill="#1F1F1F"/>
-    <rect class="bar" x="40" y="240" width="246" height="3" fill="#C6FF00"/>
-    <text x="40" y="274" class="mono" font-size="11" fill="#C6FF00">169 COMMITS</text>
+    <rect class="bar" x="40" y="240" width="270" height="3" fill="#C6FF00"/>
+    <text x="40" y="274" class="mono" font-size="11" fill="#C6FF00">LIVE · ACIDSTATES.COM</text>
     <g class="arrow">
       <text x="550" y="274" class="display" font-size="26" fill="#F2F2F2" text-anchor="end">↗</text>
     </g>

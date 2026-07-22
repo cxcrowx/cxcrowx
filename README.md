@@ -1,6 +1,8 @@
 <img src="assets/hero.svg" width="100%" alt="CXCROWX — Frontend Developer" />
 <img src="assets/marquee.svg" width="100%" alt="frontend developer · typescript · next.js · react · clean code" />
 
+<a href="https://cxcrowx.github.io"><img src="assets/portfolio.svg" width="100%" alt="live portfolio — cxcrowx.github.io" /></a>
+
 <br/>
 <br/>
 
@@ -17,8 +19,8 @@
 <img src="assets/work-head.svg" width="100%" alt="003 — selected work" />
 
 <p>
-  <img src="assets/card-flamingo.svg" width="49%" alt="flamingo-fortune-flow — slot game, lead contributor (private)" />
-  <img src="assets/card-gamecore.svg" width="49%" alt="gamecore — game framework, acidstates org (private)" />
+  <a href="https://flamingo.win"><img src="assets/card-flamingo.svg" width="49%" alt="flamingo fortune flow — slot game, live at flamingo.win" /></a>
+  <a href="https://acidstates.com"><img src="assets/card-acidstates.svg" width="49%" alt="acidstates — org platform, live at acidstates.com" /></a>
 </p>
 
 <img src="assets/footer.svg" width="100%" alt="let's build something — github.com/cxcrowx" />
