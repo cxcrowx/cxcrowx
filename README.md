@@ -3,18 +3,9 @@
 
 <a href="https://cxcrowx.github.io"><img src="assets/portfolio.svg" width="100%" alt="live portfolio — cxcrowx.github.io" /></a>
 
-<br/>
-<br/>
-
 <img src="assets/about.svg" width="100%" alt="001 — about: I build interfaces with TypeScript & Next.js — fast, clean, and with attention to detail. Interfaces that feel alive." />
 
-<br/>
-<br/>
-
 <img src="assets/stack.svg" width="100%" alt="stack: typescript, next.js, react, css, tailwind, node.js" />
-
-<br/>
-<br/>
 
 <img src="assets/work-head.svg" width="100%" alt="003 — selected work" />
 
