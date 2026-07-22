@@ -8,13 +8,13 @@
   </style>
 
   <rect width="1200" height="200" fill="#0A0A0A"/>
-  <text x="60" y="46" class="mono" font-size="12" fill="#FF4D00">004 — ACTIVITY / LAST 12 MONTHS</text>
+  <text x="60" y="46" class="mono" font-size="12" fill="#C6FF00">004 — ACTIVITY / LAST 12 MONTHS</text>
   <line x1="0" y1="66" x2="1200" y2="66" stroke="#1F1F1F"/>
   <line x1="400" y1="66" x2="400" y2="200" stroke="#1F1F1F"/>
   <line x1="800" y1="66" x2="800" y2="200" stroke="#1F1F1F"/>
 
   <g class="cell s1">
-    <text x="60" y="142" class="display" font-size="52" fill="#FF4D00">2,100+</text>
+    <text x="60" y="142" class="display" font-size="52" fill="#C6FF00">2,100+</text>
     <text x="60" y="174" class="mono" font-size="12" fill="#8A8A8A">CONTRIBUTIONS</text>
   </g>
   <g class="cell s2">

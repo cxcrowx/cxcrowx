@@ -21,21 +21,21 @@
   <text x="1136" y="286" class="display" font-size="230" fill="none" stroke="#161616" stroke-width="2" text-anchor="end">01</text>
 
   <g class="r d1">
-    <text x="60" y="52" class="mono" font-size="12" fill="#FF4D00">001 — ABOUT</text>
+    <text x="60" y="52" class="mono" font-size="12" fill="#C6FF00">001 — ABOUT</text>
   </g>
   <line class="draw" x1="60" y1="72" x2="1140" y2="72" stroke="#1F1F1F"/>
 
   <g class="r d2"><text x="60" y="128" class="body" fill="#F2F2F2">I build interfaces with TypeScript &amp; Next.js —</text></g>
   <g class="r d3"><text x="60" y="164" class="body" fill="#F2F2F2">fast, clean, and with attention to detail.</text></g>
   <g class="r d4">
-    <text x="60" y="200" class="body" fill="#FF4D00">Interfaces that feel alive.</text>
-    <rect class="blink" x="368" y="180" width="12" height="24" fill="#FF4D00"/>
+    <text x="60" y="200" class="body" fill="#C6FF00">Interfaces that feel alive.</text>
+    <rect class="blink" x="368" y="180" width="12" height="24" fill="#C6FF00"/>
   </g>
 
   <g class="r d5">
-    <g class="tick"><text x="60" y="256" class="mono" font-size="13" fill="#FF4D00">→</text></g>
+    <g class="tick"><text x="60" y="256" class="mono" font-size="13" fill="#C6FF00">→</text></g>
     <text x="90" y="256" class="mono" font-size="13" fill="#8A8A8A">currently: exploring AI-powered interfaces</text>
-    <g class="tick" style="animation-delay:.9s"><text x="60" y="282" class="mono" font-size="13" fill="#FF4D00">→</text></g>
+    <g class="tick" style="animation-delay:.9s"><text x="60" y="282" class="mono" font-size="13" fill="#C6FF00">→</text></g>
     <text x="90" y="282" class="mono" font-size="13" fill="#8A8A8A">open to:   interesting projects &amp; collabs</text>
   </g>
 </svg>

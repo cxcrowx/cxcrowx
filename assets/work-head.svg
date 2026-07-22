@@ -12,8 +12,8 @@
   <rect width="1200" height="90" fill="#0A0A0A"/>
 
   <g class="r">
-    <text x="60" y="52" class="mono" fill="#FF4D00">003 — SELECTED WORK</text>
-    <text x="600" y="54" class="spin mono" font-size="16" fill="#FF4D00" text-anchor="middle">✦</text>
+    <text x="60" y="52" class="mono" fill="#C6FF00">003 — SELECTED WORK</text>
+    <text x="600" y="54" class="spin mono" font-size="16" fill="#C6FF00" text-anchor="middle">✦</text>
     <text x="1140" y="52" class="mono" fill="#8A8A8A" text-anchor="end">TWO PRIVATE BUILDS — 2026</text>
   </g>
   <line class="draw" x1="60" y1="76" x2="1140" y2="76" stroke="#1F1F1F"/>

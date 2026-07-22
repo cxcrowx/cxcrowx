@@ -5,7 +5,7 @@
     @keyframes scroll { from { transform: translateX(0) } to { transform: translateX(-1200px) } }
   </style>
 
-  <rect width="1200" height="64" fill="#FF4D00"/>
+  <rect width="1200" height="64" fill="#C6FF00"/>
   <rect width="1200" height="2" fill="#0A0A0A"/>
   <rect y="62" width="1200" height="2" fill="#0A0A0A"/>
 
