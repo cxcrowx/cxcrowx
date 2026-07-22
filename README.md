@@ -33,12 +33,8 @@ fast, clean, and with attention to detail.
 ```
 
 <p>
-  <a href="https://github.com/cxcrowx/nextjs-ai-chatbot">
-    <img src="assets/card-chatbot.svg" width="49%" alt="nextjs-ai-chatbot — ai chat interface" />
-  </a>
-  <a href="https://github.com/cxcrowx/PseGlavius">
-    <img src="assets/card-pseglavius.svg" width="49%" alt="PseGlavius — product landing" />
-  </a>
+  <img src="assets/card-flamingo.svg" width="49%" alt="flamingo-fortune-flow — slot game, lead contributor (private)" />
+  <img src="assets/card-reactor.svg" width="49%" alt="the-reactor — slot game monorepo, acidstates org (private)" />
 </p>
 
 <img src="assets/footer.svg" width="100%" alt="let's build something — github.com/cxcrowx" />
