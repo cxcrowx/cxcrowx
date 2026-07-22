@@ -19,7 +19,7 @@
 <img src="assets/work-head.svg" width="100%" alt="003 — selected work" />
 
 <p>
-  <a href="https://flamingo.win"><img src="assets/card-flamingo.svg" width="49%" alt="flamingo fortune flow — slot game, live at flamingo.win" /></a>
+  <a href="https://flamingo.win"><img src="assets/card-flamingo.svg" width="49%" alt="flamingo fortune flow — AI assistant, live at flamingo.win" /></a>
   <a href="https://acidstates.com"><img src="assets/card-acidstates.svg" width="49%" alt="acidstates — org platform, live at acidstates.com" /></a>
 </p>
 
