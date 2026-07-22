@@ -20,14 +20,12 @@ fast, clean, and with attention to detail.
 <br/>
 <br/>
 
-<p>
-  <picture>
-    <img src="https://github-readme-stats.vercel.app/api?username=cxcrowx&show_icons=true&include_all_commits=true&hide_border=true&border_radius=0&bg_color=0A0A0A&title_color=FF4D00&text_color=F2F2F2&icon_color=FF4D00&hide_title=false&hide_rank=false" height="170" alt="github stats" />
-  </picture>
-  <picture>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cxcrowx&layout=compact&hide_border=true&border_radius=0&bg_color=0A0A0A&title_color=FF4D00&text_color=F2F2F2" height="170" alt="top languages" />
-  </picture>
-</p>
+<img src="assets/activity.svg" width="100%" alt="004 — activity" />
+<br/>
+<br/>
+<a href="https://github.com/cxcrowx">
+  <img src="https://ghchart.rshah.org/FF4D00/cxcrowx" width="100%" alt="contribution graph" />
+</a>
 
 ```
 003 — SELECTED WORK
@@ -36,10 +34,10 @@ fast, clean, and with attention to detail.
 
 <p>
   <a href="https://github.com/cxcrowx/nextjs-ai-chatbot">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=cxcrowx&repo=nextjs-ai-chatbot&hide_border=true&border_radius=0&bg_color=0A0A0A&title_color=FF4D00&text_color=F2F2F2&icon_color=FF4D00" alt="nextjs-ai-chatbot" />
+    <img src="assets/card-chatbot.svg" width="49%" alt="nextjs-ai-chatbot — ai chat interface" />
   </a>
   <a href="https://github.com/cxcrowx/PseGlavius">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=cxcrowx&repo=PseGlavius&hide_border=true&border_radius=0&bg_color=0A0A0A&title_color=FF4D00&text_color=F2F2F2&icon_color=FF4D00" alt="PseGlavius" />
+    <img src="assets/card-pseglavius.svg" width="49%" alt="PseGlavius — product landing" />
   </a>
 </p>
 
