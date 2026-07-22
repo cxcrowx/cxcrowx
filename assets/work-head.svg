@@ -1,0 +1,8 @@
+<svg width="1200" height="70" viewBox="0 0 1200 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .mono { font-family: 'SF Mono', 'Menlo', 'Courier New', monospace; font-size: 12px; letter-spacing: 3px; }
+  </style>
+  <rect width="1200" height="70" fill="#0A0A0A"/>
+  <text x="60" y="42" class="mono" fill="#FF4D00">003 — SELECTED WORK</text>
+  <line x1="0" y1="66" x2="1200" y2="66" stroke="#1F1F1F"/>
+</svg>

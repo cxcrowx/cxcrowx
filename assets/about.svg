@@ -1,0 +1,15 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .mono { font-family: 'SF Mono', 'Menlo', 'Courier New', monospace; font-size: 12px; letter-spacing: 3px; }
+    .body { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 26px; font-weight: 700; letter-spacing: -0.5px; }
+    .meta { font-family: 'SF Mono', 'Menlo', 'Courier New', monospace; font-size: 13px; letter-spacing: 1px; }
+  </style>
+  <rect width="1200" height="300" fill="#0A0A0A"/>
+  <text x="60" y="52" class="mono" fill="#FF4D00">001 — ABOUT</text>
+  <line x1="60" y1="72" x2="1140" y2="72" stroke="#1F1F1F"/>
+  <text x="60" y="128" class="body" fill="#F2F2F2">I build interfaces with TypeScript &amp; Next.js —</text>
+  <text x="60" y="164" class="body" fill="#F2F2F2">fast, clean, and with attention to detail.</text>
+  <text x="60" y="200" class="body" fill="#FF4D00">Interfaces that feel alive.</text>
+  <text x="60" y="252" class="meta" fill="#8A8A8A">→ currently: exploring AI-powered interfaces</text>
+  <text x="60" y="276" class="meta" fill="#8A8A8A">→ open to:   interesting projects &amp; collabs</text>
+</svg>

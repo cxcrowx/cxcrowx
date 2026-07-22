@@ -4,33 +4,17 @@
 <br/>
 <br/>
 
-```
-001 — ABOUT
-─────────────────────────────────────────────
-Frontend developer.
-I build interfaces with TypeScript & Next.js —
-fast, clean, and with attention to detail.
+<img src="assets/about.svg" width="100%" alt="001 — about: I build interfaces with TypeScript & Next.js — fast, clean, and with attention to detail. Interfaces that feel alive." />
 
-→ currently: exploring AI-powered interfaces
-→ open to:   interesting projects & collabs
-```
+<br/>
+<br/>
 
 <img src="assets/stack.svg" width="100%" alt="stack: typescript, next.js, react, css, tailwind, node.js" />
 
 <br/>
 <br/>
 
-<img src="assets/activity.svg" width="100%" alt="004 — activity" />
-<br/>
-<br/>
-<a href="https://github.com/cxcrowx">
-  <img src="https://ghchart.rshah.org/FF4D00/cxcrowx" width="100%" alt="contribution graph" />
-</a>
-
-```
-003 — SELECTED WORK
-─────────────────────────────────────────────
-```
+<img src="assets/work-head.svg" width="100%" alt="003 — selected work" />
 
 <p>
   <img src="assets/card-flamingo.svg" width="49%" alt="flamingo-fortune-flow — slot game, lead contributor (private)" />
