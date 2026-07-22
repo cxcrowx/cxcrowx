@@ -27,12 +27,12 @@
 
   <g class="r d1">
     <text x="60" y="46" class="mono" fill="#C6FF00">004 — CONTACT</text>
-    <circle cx="1010" cy="41" r="4" fill="#C6FF00"/>
-    <circle cx="1010" cy="41" r="4" fill="none" stroke="#C6FF00">
+    <circle cx="984" cy="41" r="4" fill="#C6FF00"/>
+    <circle cx="984" cy="41" r="4" fill="none" stroke="#C6FF00">
       <animate attributeName="r" values="4;12" dur="1.8s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.8;0" dur="1.8s" repeatCount="indefinite"/>
     </circle>
-    <text x="1140" y="46" class="mono" fill="#8A8A8A" text-anchor="end">OPEN FOR WORK</text>
+    <text x="1140" y="46" class="mono" fill="#8A8A8A" text-anchor="end" textLength="140" lengthAdjust="spacingAndGlyphs">OPEN FOR WORK</text>
   </g>
   <line class="draw" x1="0" y1="66" x2="1200" y2="66" stroke="#1F1F1F"/>
 
@@ -40,8 +40,8 @@
     <text x="58" y="170" class="display" font-size="84" fill="#F2F2F2" letter-spacing="-3">LET&#8217;S BUILD</text>
   </g>
   <g class="r d3">
-    <text x="58" y="262" class="display" font-size="84" fill="url(#fsheen)" letter-spacing="-3">SOMETHING&#160;</text>
-    <rect class="blink" x="580" y="196" width="18" height="66" fill="#C6FF00"/>
+    <text x="58" y="262" class="display" font-size="84" fill="url(#fsheen)" letter-spacing="-3" textLength="505" lengthAdjust="spacingAndGlyphs">SOMETHING</text>
+    <rect class="blink" x="583" y="196" width="18" height="66" fill="#C6FF00"/>
   </g>
 
   <g class="r d3">
