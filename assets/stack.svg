@@ -1,45 +1,71 @@
-<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="440" viewBox="0 0 1200 440" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
     .display { font-family: 'Arial Black', 'Helvetica Neue', Arial, sans-serif; font-weight: 900; }
-    .mono    { font-family: 'SF Mono', 'Courier New', monospace; font-size: 12px; letter-spacing: 3px; }
-    .cell { animation: fade .8s ease both; }
-    .c1 { animation-delay: .05s } .c2 { animation-delay: .15s } .c3 { animation-delay: .25s }
-    .c4 { animation-delay: .35s } .c5 { animation-delay: .45s } .c6 { animation-delay: .55s }
-    @keyframes fade { from { opacity: 0 } to { opacity: 1 } }
+    .mono { font-family: 'SF Mono', Menlo, 'Courier New', monospace; letter-spacing: 3px; }
+    .r  { opacity: 0; animation: rise .9s cubic-bezier(.16,1,.3,1) forwards; }
+    .d1 { animation-delay: .05s } .d2 { animation-delay: .18s } .d3 { animation-delay: .30s }
+    .d4 { animation-delay: .42s } .d5 { animation-delay: .54s } .d6 { animation-delay: .66s }
+    .sig { transform: scaleX(0); transform-box: fill-box; transform-origin: left;
+           animation: grow 1.3s cubic-bezier(.16,1,.3,1) forwards; }
+    .g1 { animation-delay: .5s } .g2 { animation-delay: .62s } .g3 { animation-delay: .74s }
+    .g4 { animation-delay: .86s } .g5 { animation-delay: .98s }
+    .draw { stroke-dasharray: 1080; stroke-dashoffset: 1080; animation: draw 1.4s cubic-bezier(.16,1,.3,1) .3s forwards; }
+    @keyframes rise { from { opacity: 0; transform: translateY(22px) } to { opacity: 1; transform: translateY(0) } }
+    @keyframes grow { to { transform: scaleX(1) } }
+    @keyframes draw { to { stroke-dashoffset: 0 } }
   </style>
 
-  <rect width="1200" height="300" fill="#0A0A0A"/>
+  <rect width="1200" height="440" fill="#0A0A0A"/>
 
-  <text x="60" y="46" class="mono" fill="#FF4D00">002 — STACK</text>
-  <line x1="0" y1="66" x2="1200" y2="66" stroke="#1F1F1F"/>
+  <!-- ghost index -->
+  <text x="1136" y="400" class="display" font-size="230" fill="none" stroke="#161616" stroke-width="2" text-anchor="end">02</text>
 
-  <!-- grid -->
-  <line x1="400" y1="66" x2="400" y2="300" stroke="#1F1F1F"/>
-  <line x1="800" y1="66" x2="800" y2="300" stroke="#1F1F1F"/>
-  <line x1="0" y1="183" x2="1200" y2="183" stroke="#1F1F1F"/>
+  <g class="r d1">
+    <text x="60" y="52" class="mono" font-size="12" fill="#FF4D00">002 — STACK</text>
+  </g>
+  <line class="draw" x1="60" y1="72" x2="1140" y2="72" stroke="#1F1F1F"/>
 
-  <g class="cell c1">
-    <text x="60" y="112" class="mono" fill="#FF4D00">01</text>
-    <text x="60" y="152" class="display" font-size="30" fill="#F2F2F2">TYPESCRIPT</text>
+  <!-- 01 TYPESCRIPT -->
+  <g class="r d2">
+    <text x="60" y="140" class="mono" font-size="12" fill="#FF4D00">01</text>
+    <text x="120" y="142" class="display" font-size="34" fill="#F2F2F2">TYPESCRIPT</text>
+    <text x="1140" y="140" class="mono" font-size="12" fill="#8A8A8A" text-anchor="end">LANGUAGE</text>
+    <rect class="sig g1" x="120" y="154" width="470" height="3" fill="#FF4D00"/>
+    <line x1="60" y1="166" x2="1140" y2="166" stroke="#1F1F1F"/>
   </g>
-  <g class="cell c2">
-    <text x="440" y="112" class="mono" fill="#FF4D00">02</text>
-    <text x="440" y="152" class="display" font-size="30" fill="#F2F2F2">NEXT.JS</text>
+
+  <!-- 02 NEXT.JS -->
+  <g class="r d3">
+    <text x="60" y="206" class="mono" font-size="12" fill="#FF4D00">02</text>
+    <text x="120" y="208" class="display" font-size="34" fill="#F2F2F2">NEXT.JS</text>
+    <text x="1140" y="206" class="mono" font-size="12" fill="#8A8A8A" text-anchor="end">FRAMEWORK</text>
+    <rect class="sig g2" x="120" y="220" width="410" height="3" fill="#FF4D00"/>
+    <line x1="60" y1="232" x2="1140" y2="232" stroke="#1F1F1F"/>
   </g>
-  <g class="cell c3">
-    <text x="840" y="112" class="mono" fill="#FF4D00">03</text>
-    <text x="840" y="152" class="display" font-size="30" fill="#F2F2F2">REACT</text>
+
+  <!-- 03 REACT -->
+  <g class="r d4">
+    <text x="60" y="272" class="mono" font-size="12" fill="#FF4D00">03</text>
+    <text x="120" y="274" class="display" font-size="34" fill="#F2F2F2">REACT</text>
+    <text x="1140" y="272" class="mono" font-size="12" fill="#8A8A8A" text-anchor="end">UI</text>
+    <rect class="sig g3" x="120" y="286" width="440" height="3" fill="#FF4D00"/>
+    <line x1="60" y1="298" x2="1140" y2="298" stroke="#1F1F1F"/>
   </g>
-  <g class="cell c4">
-    <text x="60" y="229" class="mono" fill="#FF4D00">04</text>
-    <text x="60" y="269" class="display" font-size="30" fill="#F2F2F2">CSS / SCSS</text>
+
+  <!-- 04 CSS / TAILWIND -->
+  <g class="r d5">
+    <text x="60" y="338" class="mono" font-size="12" fill="#FF4D00">04</text>
+    <text x="120" y="340" class="display" font-size="34" fill="#F2F2F2">CSS / TAILWIND</text>
+    <text x="1140" y="338" class="mono" font-size="12" fill="#8A8A8A" text-anchor="end">STYLING</text>
+    <rect class="sig g4" x="120" y="352" width="380" height="3" fill="#FF4D00"/>
+    <line x1="60" y1="364" x2="1140" y2="364" stroke="#1F1F1F"/>
   </g>
-  <g class="cell c5">
-    <text x="440" y="229" class="mono" fill="#FF4D00">05</text>
-    <text x="440" y="269" class="display" font-size="30" fill="#F2F2F2">TAILWIND</text>
-  </g>
-  <g class="cell c6">
-    <text x="840" y="229" class="mono" fill="#FF4D00">06</text>
-    <text x="840" y="269" class="display" font-size="30" fill="#F2F2F2">NODE.JS</text>
+
+  <!-- 05 NODE.JS -->
+  <g class="r d6">
+    <text x="60" y="404" class="mono" font-size="12" fill="#FF4D00">05</text>
+    <text x="120" y="406" class="display" font-size="34" fill="#F2F2F2">NODE.JS</text>
+    <text x="1140" y="404" class="mono" font-size="12" fill="#8A8A8A" text-anchor="end">RUNTIME</text>
+    <rect class="sig g5" x="120" y="418" width="300" height="3" fill="#FF4D00"/>
   </g>
 </svg>

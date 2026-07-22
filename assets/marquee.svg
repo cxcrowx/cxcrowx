@@ -1,11 +1,13 @@
 <svg width="1200" height="64" viewBox="0 0 1200 64" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .track { animation: scroll 16s linear infinite; }
+    .track { animation: scroll 20s linear infinite; }
     .t { font-family: 'Arial Black', 'Helvetica Neue', Arial, sans-serif; font-weight: 900; font-size: 24px; letter-spacing: 2px; }
     @keyframes scroll { from { transform: translateX(0) } to { transform: translateX(-1200px) } }
   </style>
 
   <rect width="1200" height="64" fill="#FF4D00"/>
+  <rect width="1200" height="2" fill="#0A0A0A"/>
+  <rect y="62" width="1200" height="2" fill="#0A0A0A"/>
 
   <g class="track">
     <text class="t" x="0"    y="42" fill="#0A0A0A" textLength="1200" lengthAdjust="spacingAndGlyphs">FRONTEND DEVELOPER ✦ TYPESCRIPT ✦ NEXT.JS ✦ REACT ✦ CLEAN CODE ✦&#160;</text>

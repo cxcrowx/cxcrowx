@@ -1,8 +1,20 @@
-<svg width="1200" height="70" viewBox="0 0 1200 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="90" viewBox="0 0 1200 90" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .mono { font-family: 'SF Mono', 'Menlo', 'Courier New', monospace; font-size: 12px; letter-spacing: 3px; }
+    .mono { font-family: 'SF Mono', Menlo, 'Courier New', monospace; font-size: 12px; letter-spacing: 3px; }
+    .r { opacity: 0; animation: rise .9s cubic-bezier(.16,1,.3,1) .05s forwards; }
+    .spin { transform-box: fill-box; transform-origin: center; animation: spin 14s linear infinite; }
+    .draw { stroke-dasharray: 1080; stroke-dashoffset: 1080; animation: draw 1.4s cubic-bezier(.16,1,.3,1) .3s forwards; }
+    @keyframes rise { from { opacity: 0; transform: translateY(22px) } to { opacity: 1; transform: translateY(0) } }
+    @keyframes spin { to { transform: rotate(360deg) } }
+    @keyframes draw { to { stroke-dashoffset: 0 } }
   </style>
-  <rect width="1200" height="70" fill="#0A0A0A"/>
-  <text x="60" y="42" class="mono" fill="#FF4D00">003 — SELECTED WORK</text>
-  <line x1="0" y1="66" x2="1200" y2="66" stroke="#1F1F1F"/>
+
+  <rect width="1200" height="90" fill="#0A0A0A"/>
+
+  <g class="r">
+    <text x="60" y="52" class="mono" fill="#FF4D00">003 — SELECTED WORK</text>
+    <text x="600" y="54" class="spin mono" font-size="16" fill="#FF4D00" text-anchor="middle">✦</text>
+    <text x="1140" y="52" class="mono" fill="#8A8A8A" text-anchor="end">TWO PRIVATE BUILDS — 2026</text>
+  </g>
+  <line class="draw" x1="60" y1="76" x2="1140" y2="76" stroke="#1F1F1F"/>
 </svg>
