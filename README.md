@@ -34,7 +34,7 @@ fast, clean, and with attention to detail.
 
 <p>
   <img src="assets/card-flamingo.svg" width="49%" alt="flamingo-fortune-flow — slot game, lead contributor (private)" />
-  <img src="assets/card-reactor.svg" width="49%" alt="the-reactor — slot game monorepo, acidstates org (private)" />
+  <img src="assets/card-gamecore.svg" width="49%" alt="gamecore — game framework, acidstates org (private)" />
 </p>
 
 <img src="assets/footer.svg" width="100%" alt="let's build something — github.com/cxcrowx" />
