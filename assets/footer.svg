@@ -1,0 +1,25 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .display { font-family: 'Arial Black', 'Helvetica Neue', Arial, sans-serif; font-weight: 900; }
+    .mono    { font-family: 'SF Mono', 'Courier New', monospace; font-size: 13px; letter-spacing: 3px; }
+    .arrow { transform-box: fill-box; animation: nudge 1.6s ease-in-out infinite; }
+    @keyframes nudge { 0%, 100% { transform: translateX(0) } 50% { transform: translateX(18px) } }
+  </style>
+
+  <rect width="1200" height="360" fill="#0A0A0A"/>
+
+  <text x="60" y="46" class="mono" fill="#FF4D00">004 — CONTACT</text>
+  <line x1="0" y1="66" x2="1200" y2="66" stroke="#1F1F1F"/>
+
+  <text x="58" y="170" class="display" font-size="84" fill="#F2F2F2" letter-spacing="-3">LET&#8217;S BUILD</text>
+  <text x="58" y="262" class="display" font-size="84" fill="#FF4D00" letter-spacing="-3">SOMETHING&#160;</text>
+
+  <g class="arrow">
+    <line x1="620" y1="234" x2="760" y2="234" stroke="#F2F2F2" stroke-width="6"/>
+    <path d="M736 210 L764 234 L736 258" stroke="#F2F2F2" stroke-width="6" fill="none"/>
+  </g>
+
+  <line x1="0" y1="300" x2="1200" y2="300" stroke="#1F1F1F"/>
+  <text x="60" y="338" class="mono" fill="#8A8A8A">© 2026 CXCROWX</text>
+  <text x="1140" y="338" class="mono" fill="#8A8A8A" text-anchor="end">GITHUB.COM/CXCROWX ↗</text>
+</svg>

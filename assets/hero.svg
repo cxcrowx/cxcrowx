@@ -1,0 +1,56 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .display { font-family: 'Arial Black', 'Helvetica Neue', Arial, sans-serif; font-weight: 900; }
+    .mono    { font-family: 'SF Mono', 'Courier New', monospace; font-size: 13px; letter-spacing: 3px; }
+    .rise    { transform-box: fill-box; animation: rise 1s cubic-bezier(.16,1,.3,1) both; }
+    .d1 { animation-delay: .10s } .d2 { animation-delay: .25s } .d3 { animation-delay: .40s }
+    .d4 { animation-delay: .55s } .d5 { animation-delay: .70s }
+    .grow { transform-box: fill-box; transform-origin: left center; animation: grow 1.1s cubic-bezier(.16,1,.3,1) both; animation-delay: .5s; }
+    .cursor { animation: blink 1.1s step-end infinite; }
+    .fade { animation: fade 1.2s ease both; animation-delay: .9s; }
+    @keyframes rise  { from { transform: translateY(46px); opacity: 0 } to { transform: translateY(0); opacity: 1 } }
+    @keyframes grow  { from { transform: scaleX(0) } to { transform: scaleX(1) } }
+    @keyframes blink { 0%, 55% { opacity: 1 } 56%, 100% { opacity: 0 } }
+    @keyframes fade  { from { opacity: 0 } to { opacity: 1 } }
+  </style>
+
+  <!-- bg -->
+  <rect width="1200" height="520" fill="#0A0A0A"/>
+
+  <!-- grid verticals -->
+  <line x1="60"   y1="0" x2="60"   y2="520" stroke="#181818"/>
+  <line x1="1140" y1="0" x2="1140" y2="520" stroke="#181818"/>
+
+  <!-- top bar -->
+  <text x="60" y="52" class="mono" fill="#8A8A8A">GITHUB.COM/CXCROWX</text>
+  <text x="1140" y="52" class="mono" fill="#8A8A8A" text-anchor="end">PROFILE — V.01</text>
+  <circle cx="600" cy="47" r="3" fill="#FF4D00"/>
+  <line x1="0" y1="76" x2="1200" y2="76" stroke="#1F1F1F"/>
+
+  <!-- headline -->
+  <g class="rise d1">
+    <text x="58" y="272" class="display" font-size="176" fill="#F2F2F2" letter-spacing="-6"
+          textLength="1082" lengthAdjust="spacingAndGlyphs">CXCROWX</text>
+  </g>
+
+  <!-- accent role bar -->
+  <g class="rise d3">
+    <rect class="grow" x="60" y="308" width="472" height="58" fill="#FF4D00"/>
+    <text x="84" y="347" class="display" font-size="26" fill="#0A0A0A" letter-spacing="2">FRONTEND DEVELOPER</text>
+    <rect class="cursor" x="548" y="308" width="26" height="58" fill="#F2F2F2"/>
+  </g>
+
+  <!-- side annotation -->
+  <g class="fade">
+    <text x="1140" y="330" class="mono" fill="#8A8A8A" text-anchor="end">BUILDING INTERFACES</text>
+    <text x="1140" y="352" class="mono" fill="#8A8A8A" text-anchor="end">THAT FEEL ALIVE</text>
+  </g>
+
+  <!-- bottom bar -->
+  <line x1="0" y1="444" x2="1200" y2="444" stroke="#1F1F1F"/>
+  <g class="fade">
+    <text x="60" y="486" class="mono" fill="#8A8A8A">TYPESCRIPT · NEXT.JS · CSS</text>
+    <text x="600" y="486" class="mono" fill="#8A8A8A" text-anchor="middle">EST. 2024</text>
+    <text x="1140" y="486" class="mono" fill="#FF4D00" text-anchor="end">SCROLL ↓</text>
+  </g>
+</svg>

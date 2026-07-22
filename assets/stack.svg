@@ -1,0 +1,45 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .display { font-family: 'Arial Black', 'Helvetica Neue', Arial, sans-serif; font-weight: 900; }
+    .mono    { font-family: 'SF Mono', 'Courier New', monospace; font-size: 12px; letter-spacing: 3px; }
+    .cell { animation: fade .8s ease both; }
+    .c1 { animation-delay: .05s } .c2 { animation-delay: .15s } .c3 { animation-delay: .25s }
+    .c4 { animation-delay: .35s } .c5 { animation-delay: .45s } .c6 { animation-delay: .55s }
+    @keyframes fade { from { opacity: 0 } to { opacity: 1 } }
+  </style>
+
+  <rect width="1200" height="300" fill="#0A0A0A"/>
+
+  <text x="60" y="46" class="mono" fill="#FF4D00">002 — STACK</text>
+  <line x1="0" y1="66" x2="1200" y2="66" stroke="#1F1F1F"/>
+
+  <!-- grid -->
+  <line x1="400" y1="66" x2="400" y2="300" stroke="#1F1F1F"/>
+  <line x1="800" y1="66" x2="800" y2="300" stroke="#1F1F1F"/>
+  <line x1="0" y1="183" x2="1200" y2="183" stroke="#1F1F1F"/>
+
+  <g class="cell c1">
+    <text x="60" y="112" class="mono" fill="#FF4D00">01</text>
+    <text x="60" y="152" class="display" font-size="30" fill="#F2F2F2">TYPESCRIPT</text>
+  </g>
+  <g class="cell c2">
+    <text x="440" y="112" class="mono" fill="#FF4D00">02</text>
+    <text x="440" y="152" class="display" font-size="30" fill="#F2F2F2">NEXT.JS</text>
+  </g>
+  <g class="cell c3">
+    <text x="840" y="112" class="mono" fill="#FF4D00">03</text>
+    <text x="840" y="152" class="display" font-size="30" fill="#F2F2F2">REACT</text>
+  </g>
+  <g class="cell c4">
+    <text x="60" y="229" class="mono" fill="#FF4D00">04</text>
+    <text x="60" y="269" class="display" font-size="30" fill="#F2F2F2">CSS / SCSS</text>
+  </g>
+  <g class="cell c5">
+    <text x="440" y="229" class="mono" fill="#FF4D00">05</text>
+    <text x="440" y="269" class="display" font-size="30" fill="#F2F2F2">TAILWIND</text>
+  </g>
+  <g class="cell c6">
+    <text x="840" y="229" class="mono" fill="#FF4D00">06</text>
+    <text x="840" y="269" class="display" font-size="30" fill="#F2F2F2">NODE.JS</text>
+  </g>
+</svg>
